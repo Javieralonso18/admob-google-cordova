@@ -69,9 +69,9 @@
 #define BANNER                      @"banner";
 #define REWARDED                    @"rewarded";
 
-#define DEFAULT_AD_PUBLISHER_ID                 @"ca-app-pub-8440343014846849/2335511010"
-#define DEFAULT_INTERSTITIAL_PUBLISHER_ID       @"ca-app-pub-8440343014846849/3812244218"
-#define DEFAULT_REWARDED_PUBLISHER_ID           @"ca-app-pub-8440343014846849/6784794226"
+#define DEFAULT_AD_PUBLISHER_ID                 @"ca-app-pub-7933522094652743/3470853213"
+#define DEFAULT_INTERSTITIAL_PUBLISHER_ID       @"ca-app-pub-7933522094652743/7171544633"
+#define DEFAULT_REWARDED_PUBLISHER_ID           @"ca-app-pub-7933522094652743/9011186012"
 #define DEFAULT_TAPPX_ID                        @"/120940746/Pub-2702-iOS-8226"
 
 #define OPT_PUBLISHER_ID            @"publisherId"
@@ -594,13 +594,13 @@
                 _publisherId = DEFAULT_TAPPX_ID;
             }
         } else if (!isGo2TappxInBannerBackfill) {
-            _publisherId = @"ca-app-pub-8440343014846849/2335511010";
+            _publisherId = @"ca-app-pub-7933522094652743/3470853213";
             isGo2TappxInBannerBackfill = true;
         } else {
             _publisherId = DEFAULT_TAPPX_ID;
         }
     } else if (isBackFill && !isGo2TappxInBannerBackfill) {
-        _publisherId = @"ca-app-pub-8440343014846849/2335511010";
+        _publisherId = @"ca-app-pub-7933522094652743/3470853213";
         isGo2TappxInBannerBackfill = true;
     } else if (isBackFill) {
         _publisherId = DEFAULT_TAPPX_ID;
@@ -626,13 +626,13 @@
                 _interstitialAdId = DEFAULT_TAPPX_ID;
             }
         } else if (!isGo2TappxInInterstitialBackfill) {
-            _interstitialAdId = @"ca-app-pub-8440343014846849/3812244218";
+            _interstitialAdId = @"ca-app-pub-7933522094652743/7171544633";
             isGo2TappxInInterstitialBackfill = true;
         } else {
             _interstitialAdId = DEFAULT_TAPPX_ID;
         }
     } else if (isBackFill && !isGo2TappxInInterstitialBackfill) {
-        _interstitialAdId = @"ca-app-pub-8440343014846849/3812244218";
+        _interstitialAdId = @"ca-app-pub-7933522094652743/7171544633";
         isGo2TappxInInterstitialBackfill = true;
     } else if (isBackFill) {
         _interstitialAdId = DEFAULT_TAPPX_ID;
@@ -644,7 +644,7 @@
 - (NSString *) __getRewardedId:(BOOL)isBackFill {
     NSString *_rewardedAdId = rewardedAdId;
     if (isBackFill) {
-        _rewardedAdId = @"ca-app-pub-8440343014846849/6784794226";
+        _rewardedAdId = @"ca-app-pub-7933522094652743/9011186012";
     }
     return _rewardedAdId;
 }
