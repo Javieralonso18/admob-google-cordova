@@ -40,8 +40,8 @@
       <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     </config-file>
     <!--config-file target="res/values/strings.xml" parent="/*">
-      <string name="banid">ca-app-pub-8440343014846849/3119840614</string>
-      <string name="intid">ca-app-pub-8440343014846849/4596573817</string>
+      <string name="banid">ca-app-pub-7933522094652743/3470853213</string>
+      <string name="intid">ca-app-pub-7933522094652743/7171544633</string>
     </config-file-->
 	  <framework src="com.google.android.gms:play-services-ads:15.0.0" />
 
@@ -73,11 +73,11 @@
       <array>
         <dict>
           <key>bid</key>
-          <string>ca-app-pub-8440343014846849/2335511010</string>
+          <string>ca-app-pub-7933522094652743/3470853213</string>
         </dict>
         <dict>
           <key>iid</key>
-          <string>ca-app-pub-8440343014846849/3812244218</string>
+          <string>ca-app-pub-7933522094652743/7171544633</string>
         </dict>
       </array>
     </config-file-->
